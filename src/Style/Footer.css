@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.foot{
+    width: 92.5%;
+    height: 50px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top :25px;
+    background-color: #ECAC5D;
+    box-shadow: 15px 15px 8px gray;
+    color:black;
+    border-radius: 16px;
+
+}
+p{
+    font-size: 35px;
+    margin-top: -5px;
+    font-family: 'Anton', sans-serif;
+    animation: slide 10s linear infinite ;
+}
+@keyframes slide{
+    0%{margin-left: 10px;}
+    100%{margin-left: 75%;}
+}

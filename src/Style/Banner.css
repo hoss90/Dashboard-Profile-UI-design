@@ -1,0 +1,54 @@
+.banner{
+    width: 93.5%;
+    display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: center;
+    background-color: beige;
+    box-shadow: 15px 15px 8px gray;
+    color: black;
+    border-radius: 16px;
+    margin-left: 60px;
+}
+.portfolio{
+    font-size: 30px;
+    margin:80px;
+}
+.menuPic{
+    width: 40px;
+    margin:20px;
+}
+.searchBar{
+    margin-left: 150px;
+    height: 35px;
+    width: 300px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 16px;
+    border: solid 3px blue;
+}
+.searchPic{
+    width: 35px;
+    margin-left: -45px;
+    cursor: pointer;
+    
+}
+.darkMode{
+    width:50px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.name{
+    margin-left:150px ;
+   font-size: 22px;
+   display: block;
+}
+.avatar{
+    width:100px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.job{
+    margin-left: 250px;
+}
